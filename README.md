@@ -4,7 +4,13 @@ git bits:
     -- git add .
     -- git commit -a
     -- git push -- ship to git
-    -- git push remote heroku -- ship to heroku
+    -- git push heroku master -- ship to heroku (must login first)
+
+heroku bits:
+    heroku create -- to start (once per directory)
+    heroku open -- to open on heroku
+    heroku login
+    heroku logout
 
 tests:
     -- open up a server with foreman, then turn on browser
